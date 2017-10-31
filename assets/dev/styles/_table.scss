@@ -1,0 +1,29 @@
+.table {
+
+  th, td {
+    padding: 8px;
+    vertical-align: middle;
+  }
+
+  tr {
+    border-bottom: 1px solid rgba(87, 222, 156, 0.5);
+  }
+
+  thead {
+    background: rgba(87, 222, 156, 0.5);
+  }
+}
+
+@media all and (max-width: 767px) {
+  .table {
+    font-size: 12px;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .table {
+    .date {
+      width: 100px;
+    }
+  }
+}
