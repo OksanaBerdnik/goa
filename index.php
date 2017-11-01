@@ -140,9 +140,9 @@
         </div>
     </nav>
     <div class="transform-c-c align-c description">
-        <h1>Йогамарафон в Гоа</h1>
-        <small>от фестиваля йоги и музыки АВАТАР</small>
-        <address>27 декабря<br> Харьков, Fabrika Space,<br>ул. Благовещенская, 1 (бывшая Карла Маркса)</address>
+        <h1>Avatar Yoga Camp</h1>
+        <small>на Гоа</small>
+        <address>28 декабря - 15 января<br> Северный Гоа, Арамболь</address>
         <ul class="btn-group list-inline">
             <li>
                 <a href="#order" class="scroll_to_target ticket">Купить билет</a>
