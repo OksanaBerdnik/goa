@@ -24,7 +24,7 @@
 
     <script src="assets/vendor/jquery/jquery.min.js"></script>
 </head>
-<body onload="myMap(49.989469, 36.222344, 'Харьков, Fabrika Space, ул. Благовещенская, 1')">
+<body onload="myMap(15.686974, 73.720593, 'Северный Гоа, Арамболь')">
 <svg style="display: none;" xmlns="http://www.w3.org/2000/svg">
     <symbol id="facebook" viewBox="0 0 48 48">
         <title>Facebook</title>
@@ -98,6 +98,9 @@
             <a href="#order" class="scroll_to_target">Купить билет</a>
         </li>
         <li>
+            <a href="#excursion" class="scroll_to_target">Экскурсии и Стоимость</a>
+        </li>
+        <li>
             <a href="#contacts" class="scroll_to_target">Контакты</a>
         </li>
     </ul>
@@ -122,6 +125,9 @@
                 <li>
                     <a href="#place" class="scroll_to_target">Место</a>
                 </li>
+                <li>
+                    <a href="#excursion" class="scroll_to_target">Экскурсии</a>
+                </li>
             </ul>
             <a href="tel:+380663170025">+38&nbsp;(066)&nbsp;317&nbsp;00&nbsp;25</a>
             <a href="https://www.facebook.com/events/498460433690538/" target="_blank">
@@ -140,8 +146,11 @@
         </div>
     </nav>
     <div class="transform-c-c align-c description">
-        <h1>Avatar Yoga Camp</h1>
-        <small>на Гоа</small>
+        <h1>
+            <img src="assets/images/avatar-yoga-camp.png" alt="avatar-yoga-camp">
+            <br>
+            на Гоа
+        </h1>
         <address>28 декабря - 15 января<br> Северный Гоа, Арамболь</address>
         <ul class="btn-group list-inline">
             <li>
@@ -177,110 +186,196 @@
         <p class="md-title">27 декабря Avatar Yoga Festival летит в Гоа!</p>
     </div>
 </div>
+<section class="section">
+    <div class="sm-container"">
+        <h2 class="section-title">Программа практик</h2>
+        <table class="sm-container table">
+            <thead>
+            <tr>
+                <th class="date">&nbsp;</th>
+                <th>Morning</th>
+                <th>Evening</th>
+            </tr>
+            <tbody>
+            <tr>
+                <td>21 Dec</td>
+                <td>Rich Logan</td>
+                <td>Анна Панина</td>
+            </tr>
+            <tr>
+                <td>30 Dec</td>
+                <td>Rich Logan</td>
+                <td>Вера Ягнюк. Семинар “Йога для жизни, а не жизнь для Йоги”</td>
+            </tr>
+            <tr>
+                <td>31 Dec</td>
+                <td>Rich Logan</td>
+                <td>Rich Logan (New Year’s Eve Kirtan)</td>
+            </tr>
+            <tr>
+                <td>1 Jan</td>
+                <td>Rich Logan</td>
+                <td>Анна Панина</td>
+            </tr>
+            <tr>
+                <td>2 Jan</td>
+                <td>Кирилл Ржаной. Хатха-йога и медитация</td>
+                <td>Rich Logan</td>
+            </tr>
+            <tr>
+                <td>3 Jan</td>
+                <td>Михаил Бартковский</td>
+                <td>Кирилл Ржаной. Психосоматические практики в хатха-йоге</td>
+            </tr>
+            <tr>
+                <td>4 Jan</td>
+                <td>Михаил Бартковский</td>
+                <td>Rich Logan</td>
+            </tr>
+            <tr>
+                <td>5 Jan</td>
+                <td>Анна Панина</td>
+                <td>Михаил Бартковский. Йога беседа о шаткармах, питании, дыхании</td>
+            </tr>
+            <tr>
+                <td>6 Jan</td>
+                <td>Анна Панина</td>
+                <td>Rich Logan</td>
+            </tr>
+            <tr>
+                <td>7 Jan</td>
+                <td>Анна Панина</td>
+                <td>Rich Logan</td>
+            </tr>
+            <tr>
+                <td>8 Jan</td>
+                <td>Анна Панина</td>
+                <td>Rich Logan</td>
+            </tr>
+            <tr>
+                <td>9 Jan</td>
+                <td>Денис Бучма</td>
+                <td>Светлана Донец</td>
+            </tr>
+            <tr>
+                <td>10 Jan</td>
+                <td>Светлана Донец</td>
+                <td>Денис Бучма</td>
+            </tr>
+            <tr>
+                <td>11 Jan</td>
+                <td>Денис Бучма</td>
+                <td>Светлана Донец</td>
+            </tr>
+            <tr>
+                <td>12 Jan</td>
+                <td>Светлана Донец</td>
+                <td>Денис Бучма</td>
+            </tr>
+            <tr>
+                <td>13 Jan</td>
+                <td>Денис Бучма</td>
+                <td>Светлана Донец</td>
+            </tr>
+            <tr>
+                <td>14 Jan</td>
+                <td>Денис Бучма</td>
+                <td>Сандра Скай</td>
+            </tr>
+            <tr>
+                <td>15 Jan</td>
+                <td>Денис Бучма</td>
+                <td>Сандра Скай</td>
+            </tr>
+            </tbody>
+            </thead>
+        </table>
+    </div>
+</section>
+<section class="section masters" id="masters">
+    <div class="container">
+        <h2 class="section-title">Мастера</h2>
+        <ul class="flex list-inline">
+            <li class="col-xs-10 col-sm-6 col-md-4">
+                <img src="assets/images/kharkiv-masters/master1.jpg" alt="Виталий Шакиров (Cat Shanti Om)">
+                <h3 class="sm-title">Виталий Шакиров (Cat Shanti Om)</h3>
+                <span>Одесса</span>
+                <p>Виталий Шакиров, также известный под псевдонимом Cat Shanti — яркая и харизматичная личность в пространстве современной йоги. Практикует йогу с 2010 года. До этого занимался различными видами спорта, исследовав все на своем опыте, пришел к йоге.. Cat shanti yoga — это авторская методика, которая была придумана Виталием Шакировым. Эта методика предназначена для быстрого и эффективного разогрева всего тела! Что позволят затратить меньшее количество времени, при этом получить максимальный эффект.</p>
+            </li>
+            <li class="col-xs-10 col-sm-6 col-md-4">
+                <img src="assets/images/kharkiv-masters/master9.jpg" alt="Слава Гуцалюк">
+                <h3 class="sm-title">Слава Гуцалюк</h3>
+                <span>Киев, Украина</span>
+                <p>Я свято верю в то, что человек приходит в этот мир с программой: быть здоровым, счастливым и богатым (во всех отношениях)! В процессе жизнедеятельности по ряду причин на первый план наших жизненных ориентиров приходят или попадают другие «вирусные установки», происходит «сбой в системе»… Необходима антивирусная программа на жёсткий диск нашего сознания и подсознания, которая обнаружила бы вирусы в нашей био- и психо-системе, с помощью которой они были бы устранены и, в последствии, никогда бы не искажали наше восприятие окружающей действительности и себя в ней.</p>
+                <p>Занимаюсь хатха-йогой уже более 15 лет. Убежден, — это АНТИВИРУС для всех органов и систем нашего организма и нашей психики, это инструмент, который, подобно камертону, настраивает человека на созидающее звучание, это матрица природного состояния…</p>
+                <p>Преподаю йогу, люблю жизнь во всех её проявлениях, постоянно совершенствую свои профессиональные и индивидуальные качества преподавателя и человека, учусь у всех, кто рядом. Как педагог с классическим педагогическим образованием вижу перспективу не в том, чтобы обучить как можно большим упражнениям, техникам или стилям, а влюбить, посредством своего личного примера занимающегося — в жизнь, в здоровье, в занятие хатха-йогой, в упражнения. Всё остальное произойдёт само по себе, без усилий. Ведь так важно любить, что делаешь и делать, что любишь.</p>
+                <p>Принцип «утреннего потягивания», физический и эмоционально-психологический комфорт, утончённая наблюдательность, как средство косвенного контроля своего состояния, пребывание в текущем моменте своих ощущений, чувств, переживаний — это необходимые правила на моих текущих занятиях!</p>
+                <p>В настоящее время живу и преподаю в Киеве.</p>
+            </li>
+            <li class="col-xs-10 col-sm-6 col-md-4">
+                <img src="assets/images/kharkiv-masters/master10.jpg" alt="Алена Скворцова">
+                <h3 class="sm-title">Алена Скворцова</h3>
+                <span>Харьков</span>
+                <p>Представляет йога-проэкт «Shanti - профессиональнная медицински обоснованная школа йоги»</p>
+                <p>По образованию врач-реабилитолог, консультант аюрведы (закончила курсы в Индии), основатель Йога-студии Shanti, автор и владелец методик "Shanti school" (обучение инструкторов йоги) и кулинароной школы "Ajurvedic cooking school". Практикует йогу с 2008 года. Основоное направление деятельности: восточные техники и философия оздоровления и омоложения, йога-терапия. Участница тренингов и семинаров в области восстановительной медицины, аюрведы и различных направлений йоги по всему миру.</p>
+            </li>
+            <li class="col-xs-10 col-sm-6 col-md-4">
+                <img src="assets/images/kharkiv-masters/master2.jpg" alt="Егор Кулаковский">
+                <h3 class="sm-title">Егор Кулаковский</h3>
+                <span>Харьков</span>
+                <p>Практикует йогу более 15 лет.</p>
+                <p>Обучался у различных отечественных и зарубежных преподавателей йоги. В том числе у доктора Мунусами Мадавана (Карур, Индия), В. Шешадри (Майсор, Индия).</p>
+                <p>Дипломированный специалист по йоге и фитнес программам (ХГАФК). Практикующий йога-терапевт, один из основателей Харьковского Центра Йога-терапии. Участник и спикер ежегодной конференции «Практическая йогатерапия»» (Санкт-Петербург). Проводит большое количество семинаров по Хатха-йоге и Акро-йоге в разных странах (Украина, Россия, Индия, Шри-Ланка и др.).</p>
+            </li>
+            <li class="col-xs-10 col-sm-6 col-md-4">
+                <img src="assets/images/kharkiv-masters/master3.jpg" alt="Влад Зюбан">
+                <h3 class="sm-title">Влад Зюбан</h3>
+                <span>Харьков</span>
+                <p>С 1990 по 1991 обучается карате. В 1991 перешел в школу боевых искусств вьетнамского мастера Чан Ван Хиеу (линия вин чун монахини Ло Шау Муи и мастера Те Конга). 19 лет изучает Вин Чун и шаолиньские стили. В 1997 году начинает практиковать хатха-йогу и цигун. Участник многих семинаров Андрея Сидерского, Юлии Твердохлебовой, Дениса Зикеева и др. С 1999 по 2004 год обучается у Юлии Твердохлебовой хатха-йоге и тибетским практикам. С 2005 года начал практиковать систему YOGA23, тайцзи и багуа. Изучает аюрведу и тибетскую медицину. С 2003 года проводит индивидуальные тренировки по хатха-йоге и вин чун, с 2007 - групповые. Постоянно проходит курсы повышения тренерской квалификации в Учебно-тренировочном центре системы YOGA23. С 2008 года сертифицированный преподаватель. Автор трансформационной программы «Точка Опоры», а также автор многочисленных обучающих программ, по тематике эффективного и здорового образа жизни.</p>
+            </li>
+            <li class="col-xs-10 col-sm-6 col-md-4">
+                <img src="assets/images/kharkiv-masters/master4.jpg" alt="Александр Зеленский">
+                <h3 class="sm-title">Александр Зеленский</h3>
+                <span>Днепр</span>
+                <p>В своих тренировках использует методы различных йогических школ и традиций, в числе которых практические наработки Черниговской школы йоги (Сергей Сидорцов, Александр Тайшев), Андрея Сидерского, Андрея Лаппы, Анатолия Зенченко.</p>
+                <p>Проводит занятия в группах по подготовке к родам, а также преподает парную йогу. Парная йога это комплекс упражнений, которые выполняют мужчина и женщина, помогают привнести качественно новые ощущения каждого в паре, почувствовать любимого человека по-новому, всем сердцем. Именно комплексный подход к йоге дает возможность наиболее целостно, последовательно и органично применять ее технологии для повышения качества человеческой жизни и эволюции каждого из нас на пути совершенствования.</p>
+            </li>
+            <li class="col-xs-10 col-sm-6 col-md-4">
+                <img src="assets/images/kharkiv-masters/master5.jpg" alt=" Александр Мартышко">
+                <h3 class="sm-title"> Александр Мартышко</h3>
+                <span>Харьков</span>
+                <p>Практик йоги с 10-ти летним стажем. Обучался и продолжает обучаться у различных зарубежных и отечественных мастеров йоги. Является организатором ежесезонных семинаров и выездных ретритов по различным направлениям йоги. Принимает постоянное участие в организации различных общественных мероприятий в данной сфере. Дипломированный инструктор йоги. Получил сертификаты о прохождении 1 и 2 уровня учительского курса по Хатха-йоге в школе Patanjali International Yoga Foundation (PIYF), Индия, г. Ришикеш. Основатель харьковской йога-студии "Vajra". «Достигнув конца того, что следует знать, ты окажешься в начале того, что следует чувствовать…»</p>
+            </li>
+            <li class="col-xs-10 col-sm-6 col-md-4">
+                <img src="assets/images/kharkiv-masters/master6.jpg" alt="Владимир Душа">
+                <h3 class="sm-title">Владимир Душа</h3>
+                <span>Харьков</span>
+                <p>КМС по кикбоксингу , боевому многоборью. Призер чемпионата Украины, международных соревнований. С 2008 г. занимаюсь йогой, сначала совмещая с занятиями спортом, постепенно йога стала для меня основной практикой. Занимался в различных йога-студиях Харькова стилями «Йога23», «Йога Айенгара». Прошел курс для преподавателей Хатха-йоги Валентины Малиновской в йога-студии «Дом Солнца». Закончил 40-часовой сертификационный курс "Практическая анатомия и физиология йоги", по методике«YogaSynergy» Саймона Борг-Оливера.</p>
+            </li>
+            <li class="col-xs-10 col-sm-6 col-md-4">
+                <img src="assets/images/kharkiv-masters/master7.jpg" alt="Татьяна Василенко">
+                <h3 class="sm-title">Татьяна Василенко</h3>
+                <span>Харьков</span>
+                <p>Занимается йогой с 2007 г., преподает с 2011 г. Преподаватель йоги, йогатерапевт (опыт работы в медицинском центре ортопедической реабилитации в сотрудничестве с врачом ортопедом-травматологом). Аттестованный инструктор методики Y23. Успешно прошла обучение в школе инструкторов хатха-йоги у В.Малиновской в г.Гоа, 2012 г. Сертифицирована на преподавательском курсе Аштанга-виньяса йоги Марка и Джоан Дарби (Канада). Обучалась у А.Затолочного, Ю.Серебряковой, А.Сидерского, О.Линиха, С.Пляшечко, Ю.Твердохлебовой.</p>
+            </li>
+            <li class="col-xs-10 col-sm-6 col-md-4">
+                <img src="assets/images/kharkiv-masters/master8.jpg" alt="Александр Дябло">
+                <h3 class="sm-title">Александр Дябло</h3>
+                <span>Харьков</span>
+                <p>Преподаватель йоги по методу Б.К.С. Айенгара в центре здоровья и красоты "Махараджа". В 2009г. окончил МСУ по специальности "Банковское дело". Прошел обучение йоги ( учительский курс) по методу Б.К.С. Айенгара в «Федерация «Йога-Практика» г. Москва.</p>
+                <p>Имеет следующие сертификаты:</p>
+                <ul>
+                    <li>«Преподавание йоги. Уровень Начальный 2» - Федерация «Йога-Практика».</li>
+                    <li>«Introductory2» - международный сертификат йоги Айенгара.</li>
+                </ul>
+                <p>С 2010 года преподает Йогу по методу Б.К.С. Айенгара в центре "Йога-Практика Махараджа". Регулярно посещает семинары по йоге Айенгара; семинары и мастер-классы по йога-терапии, практической анатомии и физиологии йоги.</p>
+            </li>
+        </ul>
+    </div>
+</section>
 <section class="section" id="program">
-    <h2 class="section-title">Программа йогамарафона</h2>
-    <table class="sm-container table">
-        <thead>
-        <tr>
-            <th class="date">&nbsp;</th>
-            <th>Morning</th>
-            <th>Evening</th>
-        </tr>
-        <tbody>
-        <tr>
-            <td>21 Dec</td>
-            <td>Rich Logan</td>
-            <td>Анна Панина</td>
-        </tr>
-        <tr>
-            <td>30 Dec</td>
-            <td>Rich Logan</td>
-            <td>Вера Ягнюк. Семинар “Йога для жизни, а не жизнь для Йоги”</td>
-        </tr>
-        <tr>
-            <td>31 Dec</td>
-            <td>Rich Logan</td>
-            <td>Rich Logan (New Year’s Eve Kirtan)</td>
-        </tr>
-        <tr>
-            <td>1 Jan</td>
-            <td>Rich Logan</td>
-            <td>Анна Панина</td>
-        </tr>
-        <tr>
-            <td>2 Jan</td>
-            <td>Кирилл Ржаной. Хатха-йога и медитация</td>
-            <td>Rich Logan</td>
-        </tr>
-        <tr>
-            <td>3 Jan</td>
-            <td>Михаил Бартковский</td>
-            <td>Кирилл Ржаной. Психосоматические практики в хатха-йоге</td>
-        </tr>
-        <tr>
-            <td>4 Jan</td>
-            <td>Михаил Бартковский</td>
-            <td>Rich Logan</td>
-        </tr>
-        <tr>
-            <td>5 Jan</td>
-            <td>Анна Панина</td>
-            <td>Михаил Бартковский. Йога беседа о шаткармах, питании, дыхании</td>
-        </tr>
-        <tr>
-            <td>6 Jan</td>
-            <td>Анна Панина</td>
-            <td>Rich Logan</td>
-        </tr>
-        <tr>
-            <td>7 Jan</td>
-            <td>Анна Панина</td>
-            <td>Rich Logan</td>
-        </tr>
-        <tr>
-            <td>8 Jan</td>
-            <td>Анна Панина</td>
-            <td>Rich Logan</td>
-        </tr>
-        <tr>
-            <td>9 Jan</td>
-            <td>Денис Бучма</td>
-            <td>Светлана Донец</td>
-        </tr>
-        <tr>
-            <td>10 Jan</td>
-            <td>Светлана Донец</td>
-            <td>Денис Бучма</td>
-        </tr>
-        <tr>
-            <td>11 Jan</td>
-            <td>Денис Бучма</td>
-            <td>Светлана Донец</td>
-        </tr>
-        <tr>
-            <td>12 Jan</td>
-            <td>Светлана Донец</td>
-            <td>Денис Бучма</td>
-        </tr>
-        <tr>
-            <td>13 Jan</td>
-            <td>Денис Бучма</td>
-            <td>Светлана Донец</td>
-        </tr>
-        <tr>
-            <td>14 Jan</td>
-            <td>Денис Бучма</td>
-            <td>Саша Скай</td>
-        </tr>
-        <tr>
-            <td>15 Jan</td>
-            <td>Денис Бучма</td>
-            <td>Саша Скай</td>
-        </tr>
-        </tbody>
-        </thead>
-    </table>
     <div class="sm-container">
+        <h2 class="section-title">Расписание</h2>
         <h3 class="simple-title align-c">27 декабря</h3>
         <ul class="schedule">
             <li>
@@ -413,310 +508,35 @@
         </ul>
     </div>
 </section>
-<section class="section green-section">
-    <div class="container">
-        <h2 class="section-title">Экскурсии</h2>
-        <ul class="simple-list">
-            <li>Поездка на Золотой Пляж (соседний штат Махараштра)</li>
-            <li>Поездка на водопад Арвалем</li>
-            <li>Поездка на пляж Ом</li>
-            <li>Блошиный рынок в Анджуне</li>
-            <li>Ночной рынок в Апроре</li>
-            <li>Прогулка к тысячелетнему баньяну (под которым, по легенде, медитировали “Битлз” и мудрый баба-алкоголик под ним</li>
-        </ul>
-    </div>
-</section>
-<section class="section yellow-section">
-    <div class="container">
-        <h2 class="section-title">Факультативно:</h2>
-        <ul class="simple-list">
-            <li>Поездка в древний город Хампи</li>
-            <li>Заповедник птиц Салим Али</li>
-            <li>Плантация специй Сахакари</li>
-        </ul>
-        <p>Кроме этого, обязательно посетим все лучшие гастрономические точки и красивые пляжи Гоа</p>
-    </div>
-</section>
-<section class="section masters" id="masters">
-    <div class="container">
-        <h2 class="section-title">Мастера</h2>
-        <ul class="flex list-inline">
-            <li class="col-xs-10 col-sm-6 col-md-4">
-                <img src="assets/images/kharkiv-masters/master1.jpg" alt="Виталий Шакиров (Cat Shanti Om)">
-                <h3 class="sm-title">Виталий Шакиров (Cat Shanti Om)</h3>
-                <span>Одесса</span>
-                <p>Виталий Шакиров, также известный под псевдонимом Cat Shanti — яркая и харизматичная личность в пространстве современной йоги. Практикует йогу с 2010 года. До этого занимался различными видами спорта, исследовав все на своем опыте, пришел к йоге.. Cat shanti yoga — это авторская методика, которая была придумана Виталием Шакировым. Эта методика предназначена для быстрого и эффективного разогрева всего тела! Что позволят затратить меньшее количество времени, при этом получить максимальный эффект.</p>
-            </li>
-            <li class="col-xs-10 col-sm-6 col-md-4">
-                <img src="assets/images/kharkiv-masters/master9.jpg" alt="Слава Гуцалюк">
-                <h3 class="sm-title">Слава Гуцалюк</h3>
-                <span>Киев, Украина</span>
-                <p>Я свято верю в то, что человек приходит в этот мир с программой: быть здоровым, счастливым и богатым (во всех отношениях)! В процессе жизнедеятельности по ряду причин на первый план наших жизненных ориентиров приходят или попадают другие «вирусные установки», происходит «сбой в системе»… Необходима антивирусная программа на жёсткий диск нашего сознания и подсознания, которая обнаружила бы вирусы в нашей био- и психо-системе, с помощью которой они были бы устранены и, в последствии, никогда бы не искажали наше восприятие окружающей действительности и себя в ней.</p>
-                <p>Занимаюсь хатха-йогой уже более 15 лет. Убежден, — это АНТИВИРУС для всех органов и систем нашего организма и нашей психики, это инструмент, который, подобно камертону, настраивает человека на созидающее звучание, это матрица природного состояния…</p>
-                <p>Преподаю йогу, люблю жизнь во всех её проявлениях, постоянно совершенствую свои профессиональные и индивидуальные качества преподавателя и человека, учусь у всех, кто рядом. Как педагог с классическим педагогическим образованием вижу перспективу не в том, чтобы обучить как можно большим упражнениям, техникам или стилям, а влюбить, посредством своего личного примера занимающегося — в жизнь, в здоровье, в занятие хатха-йогой, в упражнения. Всё остальное произойдёт само по себе, без усилий. Ведь так важно любить, что делаешь и делать, что любишь.</p>
-                <p>Принцип «утреннего потягивания», физический и эмоционально-психологический комфорт, утончённая наблюдательность, как средство косвенного контроля своего состояния, пребывание в текущем моменте своих ощущений, чувств, переживаний — это необходимые правила на моих текущих занятиях!</p>
-                <p>В настоящее время живу и преподаю в Киеве.</p>
-            </li>
-            <li class="col-xs-10 col-sm-6 col-md-4">
-                <img src="assets/images/kharkiv-masters/master10.jpg" alt="Алена Скворцова">
-                <h3 class="sm-title">Алена Скворцова</h3>
-                <span>Харьков</span>
-                <p>Представляет йога-проэкт «Shanti - профессиональнная медицински обоснованная школа йоги»</p>
-                <p>По образованию врач-реабилитолог, консультант аюрведы (закончила курсы в Индии), основатель Йога-студии Shanti, автор и владелец методик "Shanti school" (обучение инструкторов йоги) и кулинароной школы "Ajurvedic cooking school". Практикует йогу с 2008 года. Основоное направление деятельности: восточные техники и философия оздоровления и омоложения, йога-терапия. Участница тренингов и семинаров в области восстановительной медицины, аюрведы и различных направлений йоги по всему миру.</p>
-            </li>
-            <li class="col-xs-10 col-sm-6 col-md-4">
-                <img src="assets/images/kharkiv-masters/master2.jpg" alt="Егор Кулаковский">
-                <h3 class="sm-title">Егор Кулаковский</h3>
-                <span>Харьков</span>
-                <p>Практикует йогу более 15 лет.</p>
-                <p>Обучался у различных отечественных и зарубежных преподавателей йоги. В том числе у доктора Мунусами Мадавана (Карур, Индия), В. Шешадри (Майсор, Индия).</p>
-                <p>Дипломированный специалист по йоге и фитнес программам (ХГАФК). Практикующий йога-терапевт, один из основателей Харьковского Центра Йога-терапии. Участник и спикер ежегодной конференции «Практическая йогатерапия»» (Санкт-Петербург). Проводит большое количество семинаров по Хатха-йоге и Акро-йоге в разных странах (Украина, Россия, Индия, Шри-Ланка и др.).</p>
-            </li>
-            <li class="col-xs-10 col-sm-6 col-md-4">
-                <img src="assets/images/kharkiv-masters/master3.jpg" alt="Влад Зюбан">
-                <h3 class="sm-title">Влад Зюбан</h3>
-                <span>Харьков</span>
-                <p>С 1990 по 1991 обучается карате. В 1991 перешел в школу боевых искусств вьетнамского мастера Чан Ван Хиеу (линия вин чун монахини Ло Шау Муи и мастера Те Конга). 19 лет изучает Вин Чун и шаолиньские стили. В 1997 году начинает практиковать хатха-йогу и цигун. Участник многих семинаров Андрея Сидерского, Юлии Твердохлебовой, Дениса Зикеева и др. С 1999 по 2004 год обучается у Юлии Твердохлебовой хатха-йоге и тибетским практикам. С 2005 года начал практиковать систему YOGA23, тайцзи и багуа. Изучает аюрведу и тибетскую медицину. С 2003 года проводит индивидуальные тренировки по хатха-йоге и вин чун, с 2007 - групповые. Постоянно проходит курсы повышения тренерской квалификации в Учебно-тренировочном центре системы YOGA23. С 2008 года сертифицированный преподаватель. Автор трансформационной программы «Точка Опоры», а также автор многочисленных обучающих программ, по тематике эффективного и здорового образа жизни.</p>
-            </li>
-            <li class="col-xs-10 col-sm-6 col-md-4">
-                <img src="assets/images/kharkiv-masters/master4.jpg" alt="Александр Зеленский">
-                <h3 class="sm-title">Александр Зеленский</h3>
-                <span>Днепр</span>
-                <p>В своих тренировках использует методы различных йогических школ и традиций, в числе которых практические наработки Черниговской школы йоги (Сергей Сидорцов, Александр Тайшев), Андрея Сидерского, Андрея Лаппы, Анатолия Зенченко.</p>
-                <p>Проводит занятия в группах по подготовке к родам, а также преподает парную йогу. Парная йога это комплекс упражнений, которые выполняют мужчина и женщина, помогают привнести качественно новые ощущения каждого в паре, почувствовать любимого человека по-новому, всем сердцем. Именно комплексный подход к йоге дает возможность наиболее целостно, последовательно и органично применять ее технологии для повышения качества человеческой жизни и эволюции каждого из нас на пути совершенствования.</p>
-            </li>
-            <li class="col-xs-10 col-sm-6 col-md-4">
-                <img src="assets/images/kharkiv-masters/master5.jpg" alt=" Александр Мартышко">
-                <h3 class="sm-title"> Александр Мартышко</h3>
-                <span>Харьков</span>
-                <p>Практик йоги с 10-ти летним стажем. Обучался и продолжает обучаться у различных зарубежных и отечественных мастеров йоги. Является организатором ежесезонных семинаров и выездных ретритов по различным направлениям йоги. Принимает постоянное участие в организации различных общественных мероприятий в данной сфере. Дипломированный инструктор йоги. Получил сертификаты о прохождении 1 и 2 уровня учительского курса по Хатха-йоге в школе Patanjali International Yoga Foundation (PIYF), Индия, г. Ришикеш. Основатель харьковской йога-студии "Vajra". «Достигнув конца того, что следует знать, ты окажешься в начале того, что следует чувствовать…»</p>
-            </li>
-            <li class="col-xs-10 col-sm-6 col-md-4">
-                <img src="assets/images/kharkiv-masters/master6.jpg" alt="Владимир Душа">
-                <h3 class="sm-title">Владимир Душа</h3>
-                <span>Харьков</span>
-                <p>КМС по кикбоксингу , боевому многоборью. Призер чемпионата Украины, международных соревнований. С 2008 г. занимаюсь йогой, сначала совмещая с занятиями спортом, постепенно йога стала для меня основной практикой. Занимался в различных йога-студиях Харькова стилями «Йога23», «Йога Айенгара». Прошел курс для преподавателей Хатха-йоги Валентины Малиновской в йога-студии «Дом Солнца». Закончил 40-часовой сертификационный курс "Практическая анатомия и физиология йоги", по методике«YogaSynergy» Саймона Борг-Оливера.</p>
-            </li>
-            <li class="col-xs-10 col-sm-6 col-md-4">
-                <img src="assets/images/kharkiv-masters/master7.jpg" alt="Татьяна Василенко">
-                <h3 class="sm-title">Татьяна Василенко</h3>
-                <span>Харьков</span>
-                <p>Занимается йогой с 2007 г., преподает с 2011 г. Преподаватель йоги, йогатерапевт (опыт работы в медицинском центре ортопедической реабилитации в сотрудничестве с врачом ортопедом-травматологом). Аттестованный инструктор методики Y23. Успешно прошла обучение в школе инструкторов хатха-йоги у В.Малиновской в г.Гоа, 2012 г. Сертифицирована на преподавательском курсе Аштанга-виньяса йоги Марка и Джоан Дарби (Канада). Обучалась у А.Затолочного, Ю.Серебряковой, А.Сидерского, О.Линиха, С.Пляшечко, Ю.Твердохлебовой.</p>
-            </li>
-            <li class="col-xs-10 col-sm-6 col-md-4">
-                <img src="assets/images/kharkiv-masters/master8.jpg" alt="Александр Дябло">
-                <h3 class="sm-title">Александр Дябло</h3>
-                <span>Харьков</span>
-                <p>Преподаватель йоги по методу Б.К.С. Айенгара в центре здоровья и красоты "Махараджа". В 2009г. окончил МСУ по специальности "Банковское дело". Прошел обучение йоги ( учительский курс) по методу Б.К.С. Айенгара в «Федерация «Йога-Практика» г. Москва.</p>
-                <p>Имеет следующие сертификаты:</p>
-                <ul>
-                    <li>«Преподавание йоги. Уровень Начальный 2» - Федерация «Йога-Практика».</li>
-                    <li>«Introductory2» - международный сертификат йоги Айенгара.</li>
-                </ul>
-                <p>С 2010 года преподает Йогу по методу Б.К.С. Айенгара в центре "Йога-Практика Махараджа". Регулярно посещает семинары по йоге Айенгара; семинары и мастер-классы по йога-терапии, практической анатомии и физиологии йоги.</p>
-            </li>
-        </ul>
-    </div>
-</section>
-<section class="flex map-section" id="place">
-    <div class="section green-section col-sm-6-cl">
-        <div class="transform-c-c align-c">
-            <h2 class="section-title">Место проведения</h2>
-            <address>27 ноября<br> Харьков, Fabrika Space,<br>ул. Благовещенская, 1 (бывшая Карла Маркса)</address>
-        </div>
-    </div>
-    <div class="col-sm-6-cl map" id="map"></div>
-</section>
-<section class="section yellow-section marathon-photo">
-    <div class="container">
-        <h2 class="section-title">Фотографии предыдущего марафона в Гоа</h2>
-        <ul class="flex carousel tablet">
-            <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
-                <a href="assets/images/minsk-marathon/marathon1.jpg" data-fancybox="previous-marathon">
-                    <img src="assets/images/minsk-marathon/marathon1.jpg" alt="marathon Photo">
-                </a>
-            </li>
-            <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
-                <a href="assets/images/minsk-marathon/marathon2.jpg" data-fancybox="previous-marathon">
-                    <img src="assets/images/minsk-marathon/marathon2.jpg" alt="marathon Photo">
-                </a>
-            </li>
-            <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
-                <a href="assets/images/minsk-marathon/marathon3.jpg" data-fancybox="previous-marathon">
-                    <img src="assets/images/minsk-marathon/marathon3.jpg" alt="marathon Photo">
-                </a>
-            </li>
-            <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
-                <a href="assets/images/minsk-marathon/marathon4.jpg" data-fancybox="previous-marathon">
-                    <img src="assets/images/minsk-marathon/marathon4.jpg" alt="marathon Photo">
-                </a>
-            </li>
-            <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
-                <a href="assets/images/minsk-marathon/marathon5.jpg" data-fancybox="previous-marathon">
-                    <img src="assets/images/minsk-marathon/marathon5.jpg" alt="marathon Photo">
-                </a>
-            </li>
-            <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
-                <a href="assets/images/minsk-marathon/marathon6.jpg" data-fancybox="previous-marathon">
-                    <img src="assets/images/minsk-marathon/marathon6.jpg" alt="marathon Photo">
-                </a>
-            </li>
-            <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
-                <a href="assets/images/minsk-marathon/marathon7.jpg" data-fancybox="previous-marathon">
-                    <img src="assets/images/minsk-marathon/marathon7.jpg" alt="marathon Photo">
-                </a>
-            </li>
-            <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
-                <a href="assets/images/minsk-marathon/marathon8.jpg" data-fancybox="previous-marathon">
-                    <img src="assets/images/minsk-marathon/marathon8.jpg" alt="marathon Photo">
-                </a>
-            </li>
-            <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
-                <a href="assets/images/minsk-marathon/marathon9.jpg" data-fancybox="previous-marathon">
-                    <img src="assets/images/minsk-marathon/marathon9.jpg" alt="marathon Photo">
-                </a>
-            </li>
-            <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
-                <a href="assets/images/minsk-marathon/marathon10.jpg" data-fancybox="previous-marathon">
-                    <img src="assets/images/minsk-marathon/marathon10.jpg" alt="marathon Photo">
-                </a>
-            </li>
-            <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
-                <a href="assets/images/minsk-marathon/marathon11.jpg" data-fancybox="previous-marathon">
-                    <img src="assets/images/minsk-marathon/marathon11.jpg" alt="marathon Photo">
-                </a>
-            </li>
-            <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
-                <a href="assets/images/minsk-marathon/marathon12.jpg" data-fancybox="previous-marathon">
-                    <img src="assets/images/minsk-marathon/marathon12.jpg" alt="marathon Photo">
-                </a>
-            </li>
-        </ul>
-        <ul class="previous-marathon flex desktop">
-            <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
-                <a href="assets/images/minsk-marathon/marathon1.jpg" data-fancybox="previous-marathon">
-                    <img src="assets/images/minsk-marathon/marathon1.jpg" alt="marathon Photo" class="transform-c-c">
-                </a>
-            </li>
-            <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
-                <a href="assets/images/minsk-marathon/marathon2.jpg" data-fancybox="previous-marathon">
-                    <img src="assets/images/minsk-marathon/marathon2.jpg" alt="marathon Photo" class="transform-c-c">
-                </a>
-            </li>
-            <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
-                <a href="assets/images/minsk-marathon/marathon3.jpg" data-fancybox="previous-marathon">
-                    <img src="assets/images/minsk-marathon/marathon3.jpg" alt="marathon Photo" class="transform-c-c">
-                </a>
-            </li>
-            <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
-                <a href="assets/images/minsk-marathon/marathon4.jpg" data-fancybox="previous-marathon">
-                    <img src="assets/images/minsk-marathon/marathon4.jpg" alt="marathon Photo" class="transform-c-c">
-                </a>
-            </li>
-            <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
-                <a href="assets/images/minsk-marathon/marathon5.jpg" data-fancybox="previous-marathon">
-                    <img src="assets/images/minsk-marathon/marathon5.jpg" alt="marathon Photo" class="transform-c-c">
-                </a>
-            </li>
-            <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
-                <a href="assets/images/minsk-marathon/marathon6.jpg" data-fancybox="previous-marathon">
-                    <img src="assets/images/minsk-marathon/marathon6.jpg" alt="marathon Photo" class="transform-c-c">
-                </a>
-            </li>
-            <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
-                <a href="assets/images/minsk-marathon/marathon7.jpg" data-fancybox="previous-marathon">
-                    <img src="assets/images/minsk-marathon/marathon7.jpg" alt="marathon Photo" class="transform-c-c">
-                </a>
-            </li>
-            <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
-                <a href="assets/images/minsk-marathon/marathon8.jpg" data-fancybox="previous-marathon">
-                    <img src="assets/images/minsk-marathon/marathon8.jpg" alt="marathon Photo" class="transform-c-c">
-                </a>
-            </li>
-            <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
-                <a href="assets/images/minsk-marathon/marathon9.jpg" data-fancybox="previous-marathon">
-                    <img src="assets/images/minsk-marathon/marathon9.jpg" alt="marathon Photo" class="transform-c-c">
-                </a>
-            </li>
-            <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
-                <a href="assets/images/minsk-marathon/marathon10.jpg" data-fancybox="previous-marathon">
-                    <img src="assets/images/minsk-marathon/marathon10.jpg" alt="marathon Photo" class="transform-c-c">
-                </a>
-            </li>
-            <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
-                <a href="assets/images/minsk-marathon/marathon11.jpg" data-fancybox="previous-marathon">
-                    <img src="assets/images/minsk-marathon/marathon11.jpg" alt="marathon Photo" class="transform-c-c">
-                </a>
-            </li>
-            <li class="carousel-slide fade col-xs-12 col-sm-6 col-md-4">
-                <a href="assets/images/minsk-marathon/marathon12.jpg" data-fancybox="previous-marathon">
-                    <img src="assets/images/minsk-marathon/marathon12.jpg" alt="marathon Photo" class="transform-c-c">
-                </a>
-            </li>
-        </ul>
-    </div>
-</section>
-<section class="section target">
-    <h2 class="section-title">Avatar Yoga Festival</h2>
+<section class="section" id="excursion">
     <div class="container flex">
         <div class="col-sm-6">
-            <p>Международный фестиваль йоги Avatar Yoga Festival ежегодно проходит на берегу Черного Моря, под Одессой.</p>
-            <p>В Украину съезжаются лучшие преподаватели разных стран, а также лучшие мастера йоги Украины.</p>
-            <p>Наша миссия — мир! Мы очень хотим мира и улыбок всем землянам! Сейчас, как в конце шестидесятых, снова важно и нужно с помощью фестивалей объединять людей, распространять мирные и добрые намерения и знания, практики, побуждающие дружить и любить. Это наш Йога-Вудсток.</p>
-            <p>Мы приглашаем йогинов из разных стран, как мастеров, так и гостей, опытных, так и совсем начинающих.</p>
-            <p>В этом году Avatar Yoga Festival продлится целых 9 дней с 3 по 11 августа!</p>
-            <p>Все подробности тут: <br>
-                <a href="https://www.facebook.com/avatarfest" target="_blank" class="link">https://www.facebook.com/avatarfest</a>
-            </p>
+            <h2 class="simple-title">Экскурсии</h2>
+            <ul class="simple-list">
+                <li>Поездка на Золотой Пляж (соседний штат Махараштра), Реди Форт</li>
+                <li>Форт Рейс Магос возле Панаджи</li>
+                <li>Чапора Форт и Джус Центр Скарлет</li>
+                <li>В джунгли к Mango Tree и большому баньяну</li>
+                <li>Пляж Мандрем, огромный баньян и храм Ханумана</li>
+                <li>Поездка на малый Вагатор, Шива в камне на пляже</li>
+                <li>Поездка на водопад Арвалем</li>
+
+                <li>Блошиный рынок в Анджуне</li>
+                <li>Ночной рынок в Апроре</li>
+                <li>Прогулка к тысячелетнему баньяну (под которым, по легенде, медитировали “Битлз” и мудрый баба-алкоголик под ним</li>
+            </ul>
         </div>
-        <ul class="carousel col-sm-6-cl">
-            <li class="fade">
-                <a href="assets/images/festival1.jpg" data-fancybox="festival">
-                    <img src="assets/images/festival1.jpg" alt="Avatar Yoga Fest">
-                </a>
-            </li>
-            <li class="fade">
-                <a href="assets/images/festival2.jpg" data-fancybox="festival">
-                    <img src="assets/images/festival2.jpg" alt="Avatar Yoga Fest">
-                </a>
-            </li>
-            <li class="fade">
-                <a href="assets/images/festival3.jpg" data-fancybox="festival">
-                    <img src="assets/images/festival3.jpg" alt="Avatar Yoga Fest">
-                </a>
-            </li>
-            <li class="fade">
-                <a href="assets/images/festival4.jpg" data-fancybox="festival">
-                    <img src="assets/images/festival4.jpg" alt="Avatar Yoga Fest">
-                </a>
-            </li>
-            <li class="fade">
-                <a href="assets/images/festival5.jpg" data-fancybox="festival">
-                    <img src="assets/images/festival5.jpg" alt="Avatar Yoga Fest">
-                </a>
-            </li>
-            <li class="fade">
-                <a href="assets/images/festival6.jpg" data-fancybox="festival">
-                    <img src="assets/images/festival6.jpg" alt="Avatar Yoga Fest">
-                </a>
-            </li>
-            <li class="fade">
-                <a href="assets/images/festival7.jpg" data-fancybox="festival">
-                    <img src="assets/images/festival7.jpg" alt="Avatar Yoga Fest">
-                </a>
-            </li>
-            <li class="fade">
-                <a href="assets/images/festival8.jpg" data-fancybox="festival">
-                    <img src="assets/images/festival8.jpg" alt="Avatar Yoga Fest">
-                </a>
-            </li>
-        </ul>
-    </div>
-</section>
-<section class="section yellow-section">
-    <h2 class="section-title container">Подпишись,чтобы получить памятку участника и программу на почту</h2>
-    <div class="sm-container">
-        <script type="text/javascript" src="//static.mailerlite.com/data/webforms/277425/v7g8x2.js?v6"></script>
+        <div class="col-sm-6">
+            <h2 class="simple-title">Дополнительные активности:</h2>
+            <ul class="simple-list">
+                <li>Поездка в древний город Хампи</li>
+                <li>Поездка на пляж Ом в Гокарну</li>
+                <li>Заповедник птиц Салим Али</li>
+                <li>Плантация специй Сахакари</li>
+                <li>Клуб и арт-пространство Ash - концертная программа (покупаем абонемент)</li>
+            </ul>
+            <p>Кроме этого, обязательно посетим все лучшие гастрономические точки и красивые пляжи Гоа</p>
+        </div>
     </div>
 </section>
 <section class="section" id="order">
@@ -765,6 +585,96 @@
         </form>
     </div>
 </section>
+<section class="flex map-section" id="place">
+    <div class="section green-section col-sm-6-cl">
+        <div class="transform-c-c align-c">
+            <h2 class="section-title">Место проведения</h2>
+            <address>28 декабря - 15 января<br> Северный Гоа, Арамболь</address>
+        </div>
+    </div>
+    <div class="col-sm-6-cl map" id="map"></div>
+</section>
+
+<section class="section target">
+    <h2 class="section-title">Avatar Yoga Camp</h2>
+    <div class="container flex">
+        <div class="col-sm-6">
+            <p>
+                Друзья, у нас в этом году будет для вас, да и для нас, что-то особенное.
+                Так сложилось, что к нам пришло новое пространство. И чем дольше мы в нем обживаемся, тем больше приходит открытий.
+            </p>
+            <p>
+                Мы уже точно знаем, что это волшебное пространство для ретритов, практик и медитаций. Здесь бы нам хотелось видеть друзей и людей близких нам по духу.
+            </p>
+            <p>Мы не будем раскрывать все карты сразу, но что есть уже сейчас:</p>
+            <ul class="simple-list">
+                <li>5 комнат для проживания</li>
+                <li>уютный холл</li>
+                <li>огромный балкон</li>
+                <li>зал на крыше с видом на горы и поля</li>
+                <li>прохладный зал в доме</li>
+                <li>сад во дворе</li>
+                <li>вокруг тишина</li>
+            </ul>
+            <p>До моря, магазинов и ресторанов 10 мин пешком. В 100 метрах от дома идет красивейшая дорога в горы и джунгли, с полянами для медитаций и уединения.</p>
+            <p> И самое главное, название... <br>
+                #DОМ просто Дом: уютный, любимый, домашний.</p>
+            <p>Подробнее:</p>
+            <ul class="simple-list">
+                <li>этаж на 5 комнат (в комнате двуспальная кровать, по запросу предоставляем еще одно спальное место, столик, стулья, полки, индивидуальный балкон);</li>
+                <li>большой холл-столовая, который можно использовать как мини-зал</li>
+                <li>кухня (плита, холодильник, чайник, посуда на 10 человек)</li>
+                <li>большой общий балкон с местами для отдыха</li>
+                <li>крыша - йога-зал</li>
+                <li>сад</li>
+                <li>до моря и магазинов 10-15 мин пешком, 3 мин на скутере. Вокруг поля, гора и джунгли</li>
+            </ul>
+        </div>
+        <ul class="carousel col-sm-6-cl">
+            <li class="fade">
+                <a href="assets/images/festival1.jpg" data-fancybox="festival">
+                    <img src="assets/images/festival1.jpg" alt="Avatar Yoga Fest">
+                </a>
+            </li>
+            <li class="fade">
+                <a href="assets/images/festival2.jpg" data-fancybox="festival">
+                    <img src="assets/images/festival2.jpg" alt="Avatar Yoga Fest">
+                </a>
+            </li>
+            <li class="fade">
+                <a href="assets/images/festival3.jpg" data-fancybox="festival">
+                    <img src="assets/images/festival3.jpg" alt="Avatar Yoga Fest">
+                </a>
+            </li>
+            <li class="fade">
+                <a href="assets/images/festival4.jpg" data-fancybox="festival">
+                    <img src="assets/images/festival4.jpg" alt="Avatar Yoga Fest">
+                </a>
+            </li>
+            <li class="fade">
+                <a href="assets/images/festival5.jpg" data-fancybox="festival">
+                    <img src="assets/images/festival5.jpg" alt="Avatar Yoga Fest">
+                </a>
+            </li>
+            <li class="fade">
+                <a href="assets/images/festival6.jpg" data-fancybox="festival">
+                    <img src="assets/images/festival6.jpg" alt="Avatar Yoga Fest">
+                </a>
+            </li>
+            <li class="fade">
+                <a href="assets/images/festival7.jpg" data-fancybox="festival">
+                    <img src="assets/images/festival7.jpg" alt="Avatar Yoga Fest">
+                </a>
+            </li>
+            <li class="fade">
+                <a href="assets/images/festival8.jpg" data-fancybox="festival">
+                    <img src="assets/images/festival8.jpg" alt="Avatar Yoga Fest">
+                </a>
+            </li>
+        </ul>
+    </div>
+</section>
+
 <section class="section yellow-section align-c contacts" id="contacts">
     <div class="sm-container">
         <h2 class="section-title">Контакты</h2>
@@ -816,56 +726,6 @@
             <dt class="sm-title">В какое время мне нужно быть на месте?</dt>
             <dd>На марафон вам нужно прийти за 30 минут до начала, чтобы успеть пройти регистрацию, получить браслет и переодеться.</dd>
         </dl>
-    </div>
-</section>
-<section class="section partners">
-    <h2 class="section-title">Партнеры йогамарафона</h2>
-    <ul class="container flex list-inline">
-        <li>
-            <img src="assets/images/partners/partner1.jpg" alt="Partner">
-        </li>
-        <li>
-            <img src="assets/images/partners/partner2.jpg" alt="Partner">
-        </li>
-        <li>
-            <img src="assets/images/partners/partner3.jpg" alt="Partner">
-        </li>
-        <li>
-            <img src="assets/images/partners/partner4.jpg" alt="Partner">
-        </li>
-        <li>
-            <img src="assets/images/partners/partner5.jpg" alt="Partner">
-        </li>
-        <li>
-            <img src="assets/images/partners/partner6.jpg" alt="Partner">
-        </li>
-        <li>
-            <img src="assets/images/partners/partner7.jpg" alt="Partner">
-        </li>
-        <li>
-            <img src="assets/images/partners/partner8.jpg" alt="Partner">
-        </li>
-        <li>
-            <img src="assets/images/partners/partner9.jpg" alt="Partner">
-        </li>
-    </ul>
-</section>
-<section class="section yellow-section">
-    <div class="container flex">
-        <div class="col-md-4">
-            <h3 class="secondary-title">Спонсорам марафона и участие в маркете</h3>
-        </div>
-        <div class="col-md-8">
-            <p>Мы будем рады оказаться полезными маркам и проектам, которым интересна наша аудитория.</p>
-            <p>Есть два вида проявления: участие в маркете и спонсорство.</p>
-            <p>Условия и цены участия в Маркете по ссылке:
-                <a class="link" href="https://sunriseyogaz.typeform.com/to/D8IaQl" target="_blank">https://sunriseyogaz.typeform.com/to/D8IaQl</a>
-            </p>
-            <p>Также вы можете стать Спонсором марафона (с широким промо в социальных сетях и во время марафона).</p>
-            <p>По поводу спонсорства пишите нам нам на email:
-                <a href="mailto:avatarfestival@gmail.com">avatarfestival@gmail.com</a>
-            </p>
-        </div>
     </div>
 </section>
 <svg class="go-up">
