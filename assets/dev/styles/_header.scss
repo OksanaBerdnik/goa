@@ -43,11 +43,13 @@ header {
 
   .description {
     width: 80%;
+    max-width: 500px;
     color: $white;
     z-index: 1;
 
     h1 {
-      font-size: 7rem;
+      font-size: 6rem;
+      line-height: 1;
     }
 
     small {
@@ -108,7 +110,7 @@ nav {
 }
 
 .scrolling {
-  background-color: $yellow;
+  background-color: #a17e81;
   position: fixed;
 
   a {
