@@ -81,15 +81,15 @@ $(document).ready(function() {
     $('.slick-next').html('<svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#slider-arrow"></use></svg>');
 
     $(".order-email").submit(function() {
-        var form_data = $(this).serialize();
+        var form = $(".order-email");
+        var form_data = form.serialize();
         $.ajax({
             type: "POST",
             url: "email_sender.php",
             data: form_data,
             success: function(responce) {
-                console.log($(this));
-                $(".order-email").find('.success').slideDown();
-                $(".order-email").find('input[type=text], input[type=email]').val();
+                form.find('.success').slideDown();
+                form.find('input[type=text], input[type=email]').val();
             }
         });
         return false;
