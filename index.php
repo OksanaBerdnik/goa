@@ -5,7 +5,7 @@
     <meta name="robots" content="nofollow, noindex">
     <meta name="description" content="Avatar Yoga Camp от фестиваля йоги та музыки АВАТАР">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="assets/vendor/fancybox/jquery.fancybox.min.css">
     <link rel="stylesheet" href="assets/styles/main.css">
     <title>Avatar Yoga Camp</title>
@@ -59,7 +59,7 @@
 <div class="overlay"></div>
 <div id="order-call" class="popup">
     <h2 class="section-title">Заказать звонок</h2>
-    <form method="GET" class="order-email">
+    <form method="post" class="order-email">
         <p class="success">Спасибо! Мы свяжемся с Вами в течении дня.</p>
         <input type="hidden" value="Заказ звонка (Харьков)" name="subject">
         <ul>
@@ -209,11 +209,6 @@
         </div>
     </div>
 </section>
-<div class="section green-section align-c event" id="event">
-    <div class="container">
-        <p class="md-title">27 декабря Avatar Yoga Festival летит в Гоа!</p>
-    </div>
-</div>
 <section class="section" id="schedule">
     <div class="sm-container">
         <h2 class="section-title">Программа практик</h2>
@@ -406,6 +401,13 @@
                 <p>Опыт личной практики 5 лет. Преподаю 3 года. Сертифицированный преподаватель йога-проекта "Мокша". Активно путешествую, уже несколько лет каждый год уезжаю в Индию на зиму, где продолжаю впитывать знания, культуру и мудрость индийских мастеров йоги и аюрведы. Убежденная вегетарианка и основатель вегетарианского кафе-кондитерской в Арамболе, штат Гоа, В Индии.</p>
                 <p>В практике предпочитаю динамические стили йоги, где плавное перетекание асан чередуется с дыхательными и медитативными практиками. Особое внимание уделяю развитию гибкости и баланса. Ведь это то, что необходимо не только на коврике, но и в повседневной жизни. Ждя меня йога - не просто практика, а образ жизни. Это умение достигать и удерживать состояние баланса и внутри, и снаружи. Быть в гармонии с собой и миром. Динамично изменяться, перетекать из состояния в состояние и быть пластичным и гибким в изменчивом потоке событий.</p>
             </li>
+            <li class="col-xs-10 col-sm-6 col-md-4">
+                <img src="assets/images/masters/master9.jpg" alt="Secret Guest Superstar">
+                <h3 class="sm-title">Secret Guest Superstar</h3>
+                <span>Гоа, Индия</span>
+                <p>Опыт личной практики 5 лет. Преподаю 3 года. Сертифицированный преподаватель йога-проекта "Мокша". Активно путешествую, уже несколько лет каждый год уезжаю в Индию на зиму, где продолжаю впитывать знания, культуру и мудрость индийских мастеров йоги и аюрведы. Убежденная вегетарианка и основатель вегетарианского кафе-кондитерской в Арамболе, штат Гоа, В Индии.</p>
+                <p>В практике предпочитаю динамические стили йоги, где плавное перетекание асан чередуется с дыхательными и медитативными практиками. Особое внимание уделяю развитию гибкости и баланса. Ведь это то, что необходимо не только на коврике, но и в повседневной жизни. Ждя меня йога - не просто практика, а образ жизни. Это умение достигать и удерживать состояние баланса и внутри, и снаружи. Быть в гармонии с собой и миром. Динамично изменяться, перетекать из состояния в состояние и быть пластичным и гибким в изменчивом потоке событий.</p>
+            </li>
         </ul>
     </div>
 </section>
@@ -559,7 +561,7 @@
 
                 <li>Блошиный рынок в Анджуне</li>
                 <li>Ночной рынок в Апроре</li>
-                <li>Прогулка к тысячелетнему баньяну (под которым, по легенде, медитировали “Битлз” и мудрый баба-алкоголик под ним</li>
+                <li>Прогулка к тысячелетнему баньяну (под которым, по легенде, медитировали “Битлз” и мудрый баба-алкоголик под ним)</li>
             </ul>
         </div>
         <div class="col-sm-6">
@@ -580,28 +582,26 @@
         <h2 class="section-title">Стоимость и регистрация</h2>
         <ul class="flex list-inline offer">
             <li class="col-sm-4 col-xs-10">
-                <p class="title">до 1-го ноября</p>
-                <p class="price">350 грн</p>
+                <p class="title">full (проживание + билет на практики и экскурсии)</p>
+                <p class="price">850$</p>
             </li>
             <li class="col-sm-4 col-xs-10">
-                <p class="title">до 26-го ноября включительно</p>
-                <p class="price">400 грн</p>
+                <p class="title">билет на все дни (практики, экскурсии)</p>
+                <p class="price">450$</p>
             </li>
             <li class="col-sm-4 col-xs-10">
-                <p class="title">в день марафона 27-го ноября</p>
-                <p class="price">450 грн</p>
+                <p class="title">билет на 1 день (практики, экскурсии) - можно выбрать дни по желанию</p>
+                <p class="price">50$</p>
             </li>
             <li class="col-sm-4 col-xs-10">
-                <p class="title">ВМЕСТЕ ВЕСЕЛЕЕ <br>
-                    <small>по оплате групповых билетов пожалуйста
-                        <a href="#contacts" class="link scroll_to_target">пишите</a>
-                    </small>
-                </p>
-                <p class="price">4 билета по цене 3-х </p>
+                <p class="title">групповой перелет из Киева (Air Arabia) - 28.12-16.01</p>
+                <p class="price">679$</p>
             </li>
         </ul>
+        <p>Дополнительно: виза, питание, такси, аренда скутера, бензин, концерты, факультативные экскурсии, личные покупки</p>
+        <p>Ваше участие означает согласие с правилами йога-кэмпа.</p>
         <p class="align-c">Заполните, пожалуйста, форму ниже для покупки билета</p>
-        <form method="GET" class="order-email">
+        <form method="post" class="order-email">
             <input type="hidden" value="Заказ билетов (Харьков)" name="subject">
             <p class="success">Спасибо! Мы свяжемся с Вами в течении дня.</p>
             <ul>
@@ -653,43 +653,171 @@
         </div>
         <ul class="carousel col-sm-6-cl">
             <li class="fade">
-                <a href="assets/images/festival1.jpg" data-fancybox="festival">
-                    <img src="assets/images/festival1.jpg" alt="Avatar Yoga Fest">
+                <a href="assets/images/house/house1.jpg" data-fancybox="festival">
+                    <img src="assets/images/house/house1.jpg" alt="Avatar Yoga Fest">
                 </a>
             </li>
             <li class="fade">
-                <a href="assets/images/festival2.jpg" data-fancybox="festival">
-                    <img src="assets/images/festival2.jpg" alt="Avatar Yoga Fest">
+                <a href="assets/images/house/house2.jpg" data-fancybox="festival">
+                    <img src="assets/images/house/house2.jpg" alt="Avatar Yoga Fest">
                 </a>
             </li>
             <li class="fade">
-                <a href="assets/images/festival3.jpg" data-fancybox="festival">
-                    <img src="assets/images/festival3.jpg" alt="Avatar Yoga Fest">
+                <a href="assets/images/house/house3.jpg" data-fancybox="festival">
+                    <img src="assets/images/house/house3.jpg" alt="Avatar Yoga Fest">
                 </a>
             </li>
             <li class="fade">
-                <a href="assets/images/festival4.jpg" data-fancybox="festival">
-                    <img src="assets/images/festival4.jpg" alt="Avatar Yoga Fest">
+                <a href="assets/images/house/house4.jpg" data-fancybox="festival">
+                    <img src="assets/images/house/house4.jpg" alt="Avatar Yoga Fest">
                 </a>
             </li>
             <li class="fade">
-                <a href="assets/images/festival5.jpg" data-fancybox="festival">
-                    <img src="assets/images/festival5.jpg" alt="Avatar Yoga Fest">
+                <a href="assets/images/house/house5.jpg" data-fancybox="festival">
+                    <img src="assets/images/house/house5.jpg" alt="Avatar Yoga Fest">
                 </a>
             </li>
             <li class="fade">
-                <a href="assets/images/festival6.jpg" data-fancybox="festival">
-                    <img src="assets/images/festival6.jpg" alt="Avatar Yoga Fest">
+                <a href="assets/images/house/house6.jpg" data-fancybox="festival">
+                    <img src="assets/images/house/house6.jpg" alt="Avatar Yoga Fest">
                 </a>
             </li>
             <li class="fade">
-                <a href="assets/images/festival7.jpg" data-fancybox="festival">
-                    <img src="assets/images/festival7.jpg" alt="Avatar Yoga Fest">
+                <a href="assets/images/house/house7.jpg" data-fancybox="festival">
+                    <img src="assets/images/house/house7.jpg" alt="Avatar Yoga Fest">
                 </a>
             </li>
             <li class="fade">
-                <a href="assets/images/festival8.jpg" data-fancybox="festival">
-                    <img src="assets/images/festival8.jpg" alt="Avatar Yoga Fest">
+                <a href="assets/images/house/house8.jpg" data-fancybox="festival">
+                    <img src="assets/images/house/house8.jpg" alt="Avatar Yoga Fest">
+                </a>
+            </li>
+            <li class="fade">
+                <a href="assets/images/house/house9.jpg" data-fancybox="festival">
+                    <img src="assets/images/house/house9.jpg" alt="Avatar Yoga Fest">
+                </a>
+            </li>
+            <li class="fade">
+                <a href="assets/images/house/house10.jpg" data-fancybox="festival">
+                    <img src="assets/images/house/house10.jpg" alt="Avatar Yoga Fest">
+                </a>
+            </li>
+            <li class="fade">
+                <a href="assets/images/house/house11.jpg" data-fancybox="festival">
+                    <img src="assets/images/house/house11.jpg" alt="Avatar Yoga Fest">
+                </a>
+            </li>
+            <li class="fade">
+                <a href="assets/images/house/house12.jpg" data-fancybox="festival">
+                    <img src="assets/images/house/house12.jpg" alt="Avatar Yoga Fest">
+                </a>
+            </li>
+            <li class="fade">
+                <a href="assets/images/house/house13.jpg" data-fancybox="festival">
+                    <img src="assets/images/house/house12.jpg" alt="Avatar Yoga Fest">
+                </a>
+            </li>
+            <li class="fade">
+                <a href="assets/images/house/house14.jpg" data-fancybox="festival">
+                    <img src="assets/images/house/house14.jpg" alt="Avatar Yoga Fest">
+                </a>
+            </li>
+            <li class="fade">
+                <a href="assets/images/house/house15.jpg" data-fancybox="festival">
+                    <img src="assets/images/house/house15.jpg" alt="Avatar Yoga Fest">
+                </a>
+            </li>
+            <li class="fade">
+                <a href="assets/images/house/house16.jpg" data-fancybox="festival">
+                    <img src="assets/images/house/house16.jpg" alt="Avatar Yoga Fest">
+                </a>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<section class="section green-section align-c">
+    <div class="sm-container">
+        <h2 class="section-title">Мандрем. Пляж и окрестности</h2>
+        <ul class="carousel">
+            <li class="fade">
+                <a href="assets/images/mandrem/mandrem1.jpg" data-fancybox="festival">
+                    <img src="assets/images/mandrem/mandrem1.jpg" alt="Avatar Yoga Fest">
+                </a>
+            </li>
+            <li class="fade">
+                <a href="assets/images/mandrem/mandrem2.jpg" data-fancybox="festival">
+                    <img src="assets/images/mandrem/mandrem2.jpg" alt="Avatar Yoga Fest">
+                </a>
+            </li>
+            <li class="fade">
+                <a href="assets/images/mandrem/mandrem3.jpg" data-fancybox="festival">
+                    <img src="assets/images/mandrem/mandrem3.jpg" alt="Avatar Yoga Fest">
+                </a>
+            </li>
+            <li class="fade">
+                <a href="assets/images/mandrem/mandrem4.jpg" data-fancybox="festival">
+                    <img src="assets/images/mandrem/mandrem4.jpg" alt="Avatar Yoga Fest">
+                </a>
+            </li>
+            <li class="fade">
+                <a href="assets/images/mandrem/mandrem5.jpg" data-fancybox="festival">
+                    <img src="assets/images/mandrem/mandrem5.jpg" alt="Avatar Yoga Fest">
+                </a>
+            </li>
+            <li class="fade">
+                <a href="assets/images/mandrem/mandrem6.jpg" data-fancybox="festival">
+                    <img src="assets/images/mandrem/mandrem6.jpg" alt="Avatar Yoga Fest">
+                </a>
+            </li>
+            <li class="fade">
+                <a href="assets/images/mandrem/mandrem7.jpg" data-fancybox="festival">
+                    <img src="assets/images/mandrem/mandrem7.jpg" alt="Avatar Yoga Fest">
+                </a>
+            </li>
+            <li class="fade">
+                <a href="assets/images/mandrem/mandrem8.jpg" data-fancybox="festival">
+                    <img src="assets/images/mandrem/mandrem8.jpg" alt="Avatar Yoga Fest">
+                </a>
+            </li>
+            <li class="fade">
+                <a href="assets/images/mandrem/mandrem9.jpg" data-fancybox="festival">
+                    <img src="assets/images/mandrem/mandrem9.jpg" alt="Avatar Yoga Fest">
+                </a>
+            </li>
+            <li class="fade">
+                <a href="assets/images/mandrem/mandrem10.jpg" data-fancybox="festival">
+                    <img src="assets/images/mandrem/mandrem10.jpg" alt="Avatar Yoga Fest">
+                </a>
+            </li>
+            <li class="fade">
+                <a href="assets/images/mandrem/mandrem11.jpg" data-fancybox="festival">
+                    <img src="assets/images/mandrem/mandrem11.jpg" alt="Avatar Yoga Fest">
+                </a>
+            </li>
+            <li class="fade">
+                <a href="assets/images/mandrem/mandrem12.jpg" data-fancybox="festival">
+                    <img src="assets/images/mandrem/mandrem12.jpg" alt="Avatar Yoga Fest">
+                </a>
+            </li>
+            <li class="fade">
+                <a href="assets/images/mandrem/mandrem13.jpg" data-fancybox="festival">
+                    <img src="assets/images/mandrem/mandrem12.jpg" alt="Avatar Yoga Fest">
+                </a>
+            </li>
+            <li class="fade">
+                <a href="assets/images/mandrem/mandrem14.jpg" data-fancybox="festival">
+                    <img src="assets/images/mandrem/mandrem14.jpg" alt="Avatar Yoga Fest">
+                </a>
+            </li>
+            <li class="fade">
+                <a href="assets/images/mandrem/mandrem15.jpg" data-fancybox="festival">
+                    <img src="assets/images/mandrem/mandrem15.jpg" alt="Avatar Yoga Fest">
+                </a>
+            </li>
+            <li class="fade">
+                <a href="assets/images/mandrem/mandrem16.jpg" data-fancybox="festival">
+                    <img src="assets/images/mandrem/mandrem16.jpg" alt="Avatar Yoga Fest">
                 </a>
             </li>
         </ul>
@@ -757,5 +885,43 @@
 <script src="assets/js/main.js"></script>
 <script src="assets/vendor/fancybox/jquery.fancybox.min.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCYysAY2nIouqL7ivA1nePObhhJk6PklZA&callback=myMap"></script>
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-100123452-2', 'auto');
+    ga('send', 'pageview');
+
+</script>
+
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter44815075 = new Ya.Metrika({
+                    id:44815075,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/44815075" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 </body>
 </html>

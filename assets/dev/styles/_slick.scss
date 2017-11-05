@@ -293,3 +293,17 @@ $slick-opacity-not-active: 0.25 !default;
     }
   }
 }
+
+@media all and (max-width: 767px) {
+  .slick-dotted {
+    height: 240px;
+
+    .slick-list {
+      height: 100% !important;
+    }
+  }
+
+  .slick-dots {
+    bottom: -50px;
+  }
+}
