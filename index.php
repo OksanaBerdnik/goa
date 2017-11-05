@@ -606,13 +606,45 @@
             <p class="success">Спасибо! Мы свяжемся с Вами в течении дня.</p>
             <ul>
                 <li>
-                    <input class="input" type="text" name="name" placeholder="Введите ваше имя *" required>
+                    <input class="input" type="text" name="name" placeholder="Имя и фамилия*" required>
                 </li>
                 <li>
-                    <input class="input" type="tel" name="phone" placeholder="Введите ваш номер телефона *" required>
+                    <input class="input" type="text" name="facebook_profile" placeholder="Страница в Facebook">
                 </li>
                 <li>
-                    <input class="input" type="email" name="email" placeholder="Введите ваш email *" required>
+                    <input class="input" type="tel" name="phone" placeholder="Телефон (WhatsApp)">
+                </li>
+                <li>
+                    <input class="input" type="email" name="email" placeholder="Email *" required>
+                </li>
+                <li>
+                    <label class="custom-radio">
+                        <input type="radio" name="plan" value="850$ - full (проживание + билет на практики и экскурсии)" checked>
+                        <span class="check"></span>
+                        <span>850$ - full (проживание + билет на практики и экскурсии)</span>
+                    </label>
+                </li>
+                <li>
+                    <label class="custom-radio">
+                        <input type="radio" name="plan" value="450$ - билет на все дни (практики, экскурсии)">
+                        <span class="check"></span>
+                        <span>450$ - билет на все дни (практики, экскурсии)</span>
+                    </label>
+                </li>
+                <li>
+                    <label class="custom-radio">
+                        <input type="radio" name="plan" value="50$ - билет на 1 день (практики, экскурсии) - можно выбрать дни по желанию">
+                        <span class="check"></span>
+                        <span>50$ - билет на 1 день (практики, экскурсии) - можно выбрать дни по желанию</span>
+                    </label>
+                </li>
+                <li>
+                    <label class="custom-checkbox">
+                        <input type="checkbox" name="flight_ticket" value="order" checked>
+                        <span class="check"></span>
+                        <span>679$ - групповой перелет из Киева (Air Arabia) - 28.12-16.01</span>
+                    </label>
+
                 </li>
                 <li>
                     <input class="submit" type="submit" value="Заказать билет">

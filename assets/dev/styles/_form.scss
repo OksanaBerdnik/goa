@@ -93,6 +93,80 @@ form {
   }
 }
 
+.custom-radio {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  input {
+    display: none;
+
+    &:checked + .check {
+      position: relative;
+
+      &:after {
+        content: '';
+        display: block;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background: $green;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+      }
+    }
+  }
+
+  .check {
+    flex-shrink: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: block;
+    border: 1px solid #dbdbdb;
+    margin-right: 10px;
+  }
+}
+
+.custom-checkbox {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  input {
+    display: none;
+
+    &:checked + .check {
+      position: relative;
+
+      &:after {
+        content: '';
+        display: block;
+        width: 15px;
+        height: 15px;
+        border-radius: 3px;
+        background: $green;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+      }
+    }
+  }
+
+  .check {
+    flex-shrink: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 3px;
+    display: block;
+    border: 1px solid #dbdbdb;
+    margin-right: 10px;
+  }
+}
+
 @media all and (max-width: 767px) {
   .offer {
     display: block;
