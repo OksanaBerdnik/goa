@@ -83,7 +83,7 @@ $(document).ready(function() {
     $(".order-email").submit(function() {
         var form_data = $(this).serialize();
         $.ajax({
-            type: "GET",
+            type: "POST",
             url: "email_sender.php",
             data: form_data,
             success: function(responce) {
