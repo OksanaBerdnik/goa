@@ -87,8 +87,9 @@ $(document).ready(function() {
             url: "email_sender.php",
             data: form_data,
             success: function(responce) {
-                $(this).find('.success').slideDown();
-                $(this).find('input[type=text], input[type=email]').val();
+                console.log($(this));
+                $(".order-email").find('.success').slideDown();
+                $(".order-email").find('input[type=text], input[type=email]').val();
             }
         });
         return false;
