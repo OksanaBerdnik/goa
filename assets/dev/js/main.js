@@ -80,16 +80,15 @@ $(document).ready(function() {
     $('.slick-prev').html('<svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#slider-arrow"></use></svg>');
     $('.slick-next').html('<svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#slider-arrow"></use></svg>');
 
-    $(".order-email").submit(function() {
-        var form = $(".order-email");
-        var form_data = form.serialize();
+    $(".order-email").on('submit', function() {
+        var form_data = $(this).serialize();
         $.ajax({
             type: "POST",
             url: "email_sender.php",
             data: form_data,
-            success: function(responce) {
-                form.find('.success').slideDown();
-                form.find('input[type=text], input[type=email]').val();
+            success: function() {
+                $(this).find('.success').slideDown();
+                $(this).find('input[type=text], input[type=email]').val();
             }
         });
         return false;
