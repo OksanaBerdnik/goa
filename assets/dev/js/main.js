@@ -84,7 +84,7 @@ $(document).ready(function() {
         var form_data = $(this).serialize();
         $.ajax({
             type: "POST",
-            url: "email_sender.php",
+            url: "/email_sender.php",
             data: form_data,
             success: function(responce) {
                 $(this).find('.success').slideDown();
