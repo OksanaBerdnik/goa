@@ -59,7 +59,7 @@
 <div class="overlay"></div>
 <div id="order-call" class="popup">
     <h2 class="section-title">Заказать звонок</h2>
-    <form method="post" class="order-email">
+    <form method="post" class="order-email" action="/email_sender.php">
         <p class="success">Спасибо! Мы свяжемся с Вами в течении дня.</p>
         <input type="hidden" value="Заказ звонка" name="subject">
         <ul>
@@ -599,7 +599,7 @@
         <p>Дополнительно: виза, питание, такси, аренда скутера, бензин, концерты, факультативные экскурсии, личные покупки</p>
         <p>Ваше участие означает согласие с правилами йога-кэмпа.</p>
         <p class="align-c">Заполните, пожалуйста, форму ниже для покупки билета</p>
-        <form method="post" class="order-email">
+        <form method="post" class="order-email" action="/email_sender.php">
             <p class="success">Спасибо! Мы свяжемся с Вами в течении дня.</p>
             <input type="hidden" value="Заказ билета" name="subject">
             <ul>
