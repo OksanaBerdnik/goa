@@ -169,6 +169,9 @@ img.transform-c-c {
 
 .link {
   color: $green;
+  font-size: inherit;
+  font-weight: 300;
+  font-family: inherit;
 
   &:hover, &:focus {
     text-decoration: underline;

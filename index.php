@@ -719,6 +719,7 @@
             или по телефону
             <a href="tel:+380663170025" class="link">+38&nbsp;066&nbsp;317&nbsp;00&nbsp;25</a>.
         </p>
+        <p>Вы можете заполнить<button type="button" class="link" data-fancybox data-src="#order-call">форму обратной связи</button>и мы непременно свяжемся с Вами</p>
         <p>Также не забудьте подписаться на наши странички в соц. сетях:</p>
         <ul class="list-inline">
             <li>
