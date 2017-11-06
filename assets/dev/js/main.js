@@ -81,7 +81,8 @@ $(document).ready(function() {
     $('.slick-next').html('<svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#slider-arrow"></use></svg>');
 
     $(".order-email").on('submit', function(e) {
-        var form_data = $(this).serialize();
+        var form = $(this);
+        var form_data = form.serialize();
 
         e.preventDefault();
         $.ajax({
@@ -89,12 +90,9 @@ $(document).ready(function() {
             url: "email_sender.php",
             data: form_data,
             success: function(result) {
-                $(this).find('.success').slideDown();
-                $(this).closest('.popup').hide();
-                $(this).find('input[type=text], input[type=email]').val();
-            },
-            error: function (err) {
-                console.log(err);
+                form.find('.success').slideDown();
+                form.closest('.popup').hide();
+                form.find('input[type=text], input[type=email]').val();
             }
         });
         // return false;
