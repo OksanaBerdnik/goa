@@ -90,6 +90,7 @@ $(document).ready(function() {
             data: form_data,
             success: function(result) {
                 $(this).find('.success').slideDown();
+                $(this).closest('.popup').hide();
                 $(this).find('input[type=text], input[type=email]').val();
             },
             error: function (err) {
