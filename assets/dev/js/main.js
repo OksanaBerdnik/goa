@@ -92,6 +92,7 @@ $(document).ready(function() {
             success: function(result) {
                 form.find('.success').slideDown();
                 form.closest('.popup').hide();
+                $.fancybox.close();
                 form.find('input[type=text], input[type=email]').val();
             }
         });
