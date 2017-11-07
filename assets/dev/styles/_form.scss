@@ -5,8 +5,9 @@ button {
 }
 
 .success {
-  color: $green;
   text-align: center;
+  margin: 0;
+  font-weight: 600;
   display: none;
 }
 
